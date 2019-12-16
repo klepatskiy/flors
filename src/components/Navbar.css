@@ -1,0 +1,8 @@
+.navbar img {
+    max-width: 90px;
+}
+
+.navbar li {
+    padding-right: 40px;
+    font-size: 20px;
+}
