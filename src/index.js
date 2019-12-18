@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Navbar} from "./components/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Navbar} from "./components/Navbar/Navbar";
+import {Baner} from "./components/Baner/Baner";
 
 const body = document.getElementById('body');
 
 ReactDOM.render(
-
-    <Navbar />, body
+<div>
+    <Navbar/>
+    <Baner/>
+</div>, body
 
 );
